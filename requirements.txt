@@ -1,0 +1,12 @@
+tika
+spacy
+pandas
+plotly
+deplacy
+spacy-transformers
+transformers
+sentencepiece
+protobuf==3.20.1
+datasets
+elasticsearch==7.10.0
+elasticsearch_dsl==7.1.0
