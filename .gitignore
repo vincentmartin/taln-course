@@ -1,4 +1,4 @@
 dataset/*
 resources/*
 venv/*
-notebooks/data
+notebooks/dataset/data-gouv-pdf-txt/*
