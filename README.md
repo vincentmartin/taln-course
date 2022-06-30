@@ -40,6 +40,7 @@ git clone https://github.com/vincentmartin/taln-course.git
 2. Lancer l'environnement de développement et les outils nécessaires en exécutant la commande suivante dans un terminal à la racine du dossier `taln-course`
 
 ```
+docker-compose build
 docker-compose up
 ```
 
