@@ -45,3 +45,5 @@ Suivre les modules suivants dans l'ordre :
 - [a link](/3-Information%20extraction.ipynb)
 - [a link](/4-Document%20classification.ipynb)
 - [a link](/5-Search%20Engine%20and%20Visualization.ipynb)
+
+Lorsqu'il est indiqué **Exercice**, remplir les éléments marqués **TODO** pour compléter l'exercice.
