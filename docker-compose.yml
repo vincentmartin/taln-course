@@ -8,6 +8,8 @@ services:
     ports:
       - "8889:8888"  # Jupyter port binding
     entrypoint: "jupyter notebook --NotebookApp.token='' --notebook-dir=/workspace/ --ip 0.0.0.0 --no-browser --allow-root"
+    volumes:
+      - ./notebooks:/workspace
     networks:
       - taln-course-net
 
