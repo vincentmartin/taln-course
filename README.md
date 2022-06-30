@@ -49,3 +49,7 @@ docker-compose up
 Réaliser le TP dans l'ordre des Notebooks.
 
 Lorsqu'il est indiqué **Exercice**, remplir les éléments marqués **TODO** pour compléter l'exercice.
+
+## Correction
+
+La correction se trouve dans la branche `correction` : https://github.com/vincentmartin/taln-course/tree/correction
