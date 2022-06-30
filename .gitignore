@@ -1,0 +1,4 @@
+dataset/*
+resources/*
+venv/*
+notebooks/data

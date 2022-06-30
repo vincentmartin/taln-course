@@ -1,14 +1,13 @@
 # TP Fouille de textes et TALN
 
-L'objectif de ce TP est de vous faire découvrir la fouille de textes et les techniques de Traitement Automatique du Langage Naturel afin de résoudre des problèmes concrêts rencontrés en entreprise.
+L'objectif de ce TP est de découvrir la fouille de textes et les techniques de Traitement Automatique du Langage Naturel afin de résoudre des problèmes concrêts rencontrés en entreprise.
 
-Pour réaliser ce TP, nous suivrons un cas d'usage fil conducteur  dans l'ordre les X modules du TP : 
-
-1. Découverte de l'environnement et des données
-2. Lecture des données, OCR et normalisation des textes
+Ce TP se déroule en plusieurs parties : 
+1. Découverte de l'environnement et chargement de données
+2. Lecture des données et pré-traitement du textes
 3. Extraction d'informations pertinentes
-4. Catégorisation des données
-5. Indexation des données et mise en place de visualisations pertinentes
+4. Classification de données
+5. Indexation des données dans un moteur de recherche
 
 ## Description du cas d'usage
 
@@ -20,22 +19,29 @@ Le problème qui se pose est le suivant : comment exploiter ces données hétér
 - rechercher des documents efficacement ;
 - mettre en place des indicateurs utilisables par le métier.
 
-## 1. Découverte de l'environnement et des données
+## Jeux de données
 
-Utilisation de CommonCrawlDocument
+Pour ce TP nous allons utiliser les jeux de données suivants :
+- Texte provenant des PDFs trouvés sur data.gouv.fr : https://www.data.gouv.fr/fr/datasets/texte-provenant-des-pdfs-trouves-sur-data-gouv-fr/
+- Quelques fichiers images pour illustrer la reconnaissance optique de caractères
+- Des avis sur des livres données par des utilisateurs : https://huggingface.co/datasets/Abirate/french_book_reviews 
 
-## 2. Lecture des données et normalisation des textes
+## Lancement de l'environnement de développement
 
-Python / notebook ou Dataiku ?
+Pour lancer l'environnement, exécuter la commande suivante dans un terminal à la racine du dossier `taln-course`
 
-## 3. Extraction d'informations pertinentes
+```
+docker-compose up
+```
 
-Python / notebook ou Dataiku ?
+Puis rendez-vous sur l'URL http://localhost:8889
 
-## 4. Catégorisation des données
+## Déroulement du TP
 
-Utilisation de modèles Huggingface : zeroshot learning ou entraînement / inference
+Suivre les modules suivants dans l'ordre : 
 
-## 5. Indexation des données et mise en place de visualisations pertinentes
-
-Elasticsearch / Kibana ou OpenSearch / Dashboards
+- [a link](/1-Read%20and%20normalize%20documents.ipynb)
+- [a link](/2-Preprocessing.ipynb)
+- [a link](/3-Information%20extraction.ipynb)
+- [a link](/4-Document%20classification.ipynb)
+- [a link](/5-Search%20Engine%20and%20Visualization.ipynb)

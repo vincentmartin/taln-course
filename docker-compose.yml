@@ -1,6 +1,16 @@
 version: '3'
 services:
 
+  app:
+    image: taln-course/cpu-jupyter:latest
+    container_name: taln-course-cpu-jupyter
+    build: .
+    ports:
+      - "8889:8888"  # Jupyter port binding
+    entrypoint: "jupyter notebook --NotebookApp.token='' --notebook-dir=/workspace/ --ip 0.0.0.0 --no-browser --allow-root"
+    networks:
+      - taln-course-net
+
   # Serveur OpenSearch (fork Elasticsearch 7.10)
   opensearch:
     image: opensearchproject/opensearch:2.0.1
@@ -21,7 +31,7 @@ services:
       - 9200:9200
       - 9600:9600
     networks:
-      - opensearch-net
+      - taln-course-net
 
  
   # Opensearch dashboard pour la visualisation
@@ -31,7 +41,7 @@ services:
     ports:
         - 5601:5601
     networks:
-      - opensearch-net
+      - taln-course-net
     environment:
       - 'OPENSEARCH_HOSTS=["http://opensearch:9200"]'
       - "DISABLE_SECURITY_DASHBOARDS_PLUGIN=true"
@@ -39,5 +49,5 @@ services:
       - opensearch
 
 networks:
-  opensearch-net:
+  taln-course-net:
     driver: bridge
