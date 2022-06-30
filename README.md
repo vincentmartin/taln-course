@@ -40,10 +40,10 @@ Puis rendez-vous sur l'URL http://localhost:8889
 
 Suivre les modules suivants dans l'ordre : 
 
-- [a link](/1-Read%20and%20normalize%20documents.ipynb)
-- [a link](/2-Preprocessing.ipynb)
-- [a link](/3-Information%20extraction.ipynb)
-- [a link](/4-Document%20classification.ipynb)
-- [a link](/5-Search%20Engine%20and%20Visualization.ipynb)
+- [1- Lecture de documents et normalisation](/1-Read%20and%20normalize%20documents.ipynb)
+- [2- Prétraitements](/2-Preprocessing.ipynb)
+- [3- Information extraction](/3-Information%20extraction.ipynb)
+- [4- Document classification](/4-Document%20classification.ipynb)
+- [5- Moteur de recherche et visualisation](/5-Search%20Engine%20and%20Visualization.ipynb)
 
 Lorsqu'il est indiqué **Exercice**, remplir les éléments marqués **TODO** pour compléter l'exercice.
