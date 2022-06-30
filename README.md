@@ -29,7 +29,7 @@ Pour ce TP nous utilisons les jeux de données suivants :
 - Quelques fichiers images pour illustrer la reconnaissance optique de caractères (OCR)
 - Des avis sur des livres : https://huggingface.co/datasets/Abirate/french_book_reviews
 
-## Lancement de l'environnement et déroulée du TP
+## Lancement de l'environnement et déroulé du TP
 
 1. Récupérer le projet depuis github
 
