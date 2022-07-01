@@ -4,11 +4,11 @@ L'objectif de ce TP est de découvrir la fouille de textes et les techniques de 
 
 Ce TP se déroule en plusieurs parties, chacune se présentant sous la forme d'un Notebook Python :
 
-- [1- Lecture de documents, OCR et normalisation](/1-Read%20and%20normalize%20documents.ipynb)
-- [2- Prétraitements du texte](/2-Preprocessing.ipynb)
-- [3- Extraction d'informations pertinentes](/3-Information%20extraction.ipynb)
-- [4- Classification de documents](/4-Document%20classification.ipynb)
-- [5- Indexation des données dans un moteur de recherche](/5-Search%20Engine%20and%20Visualization.ipynb)
+- [1- Lecture de documents, OCR et normalisation](/notebooks/1-Read%20and%20normalize%20documents.ipynb)
+- [2- Prétraitements du texte](/notebooks/2-Preprocessing.ipynb)
+- [3- Extraction d'informations pertinentes](/notebooks/3-Information%20extraction.ipynb)
+- [4- Classification de documents](/notebooks/4-Document%20classification.ipynb)
+- [5- Indexation des données dans un moteur de recherche](/notebooks/5-Search%20Engine%20and%20Visualization.ipynb)
 
 ## Description du cas d'usage
 
