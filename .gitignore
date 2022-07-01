@@ -3,5 +3,4 @@ resources/*
 venv/*
 .venv/*
 notebooks/dataset/data-gouv-pdf-txt/*
-notebooks/dataset/*
 notebooks/dataset_processed/*
