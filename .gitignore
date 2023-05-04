@@ -1,5 +1,5 @@
-dataset/*
-resources/*
+notebooks/dataset/*
+.ipynb_checkpoints
 venv/*
 .venv/*
 notebooks/dataset/data-gouv-pdf-txt/*
