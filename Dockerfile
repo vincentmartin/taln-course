@@ -16,7 +16,7 @@ USER 1001
 
 RUN pip install -r requirements.txt
 
-COPY notebooks /workspace/
+#COPY notebooks /workspace/
 
-RUN mkdir -p /workspace/dataset/
-RUN mkdir -p /workspace/dataset_processed/
+#RUN mkdir -p /workspace/dataset/
+#RUN mkdir -p /workspace/dataset_processed/

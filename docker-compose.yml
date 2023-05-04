@@ -8,6 +8,8 @@ services:
     ports:
       - "8889:8888"  # Jupyter port binding
     entrypoint: "jupyter notebook --NotebookApp.token='' --notebook-dir=/workspace/ --ip 0.0.0.0 --no-browser --allow-root"
+    volumes:
+          - ./notebooks:/workspace/:rw
     networks:
       - taln-course-net
 
@@ -22,7 +24,7 @@ services:
       - plugins.security.disabled=true # ATTENTION : SECURITE DESACTIVE
       - "OPENSEARCH_JAVA_OPTS=-Xms512m -Xmx512m"
     #volumes:
-    #  - ./opensearch-data:/usr/share/opensearch/data
+      #- ./opensearch-data:/usr/share/opensearch/data
     ulimits:
       memlock:
         soft: -1
